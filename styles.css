@@ -1,0 +1,148 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  text-align: center;
+  /* height: 100vh;  */
+  border: 5px solid #f3f5eb;
+  border-radius: 20px;
+  color: #ebe5e5;
+  background: linear-gradient(#aa9673, #a3ac23, #aa9673); 
+ 
+}
+
+
+#hero {
+  background-image: url("images/hero-bg.jpg");
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 6px solid #a3ac23;
+
+}
+
+#logo {
+  margin-top: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 100;
+}
+
+h1 {
+  color: #ebe5e5;
+  background-color: #2b2b09;
+
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.button-hero {
+  color: #ebe5e5;
+  background-color: #2b2b09;
+  padding: 10px 30px;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  
+}
+
+.button-hero:hover {
+  font-weight: 800;
+}
+
+.activity-container {
+  
+  height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-section {
+  height: 600px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 0;
+  
+}
+
+.activity {
+  padding-left: 0 30px;
+  width: 200px;
+  height: 400px;
+}
+
+.activity p {
+  text-align: center;
+}
+
+.activity-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.activity-img:hover {
+  transform: scale(1.5);
+}
+
+#headline {
+  margin: 0;
+  height: 50px;
+}
+.guide-section{
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border-bottom: 4px solid #2b2b09;
+}
+
+.card {
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #3d3f0b;
+  color: #dad7cd;
+  border-bottom: 6px solid #849924;
+  border-radius: 5px;
+}
+
+#avatar {
+  width: 200px;
+  height: 250px;
+}
+#avatar:hover {
+  transform: scale(1.1);
+}
+
+#footer {
+  height: 100px;
+  text-align: center;
+ 
+  margin-top: 80px;
+ 
+}
+#underline{
+  border-bottom: 1px solid #ebe5e5 ;
+}
+
+#underline:hover{
+  font-weight: bold;
+  
+}
